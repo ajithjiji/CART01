@@ -69,33 +69,19 @@ dataLayer.push({
   event: "view_item_list",
   ecommerce:
      {
-      item_id: "ITM_12345",
-
-      item_name: "Python",
+      transaction_id: "ITM_12345",
 
       affiliation: "online_Course",
 
      currency: "INR",
 
-      discount: 100,
+      value: 100,
+         
+      tax: 100,
 
-      item_brand: "MOOC",
+      shipping: "MOOC",
 
-      item_category: "Python",
-
-      item_category2: "ML",
-
-      item_category3: "DS",
-
-      item_category4: "CS",
-
-      item_variant: "Online",
-
-      location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
-
-      price: 5000,
-
-      quantity: 1
+    
     }
 });
    dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
