@@ -71,8 +71,6 @@ dataLayer.push({
      {
       transaction_id: "ITM_12345",
 
-      affiliation: "online_Course",
-
      currency: "INR",
 
       value: 100,
@@ -80,7 +78,24 @@ dataLayer.push({
       tax: 100,
 
       shipping: "MOOC",
-
+      
+      items:[
+          {
+              item_id: "SFV_235",
+              item_name: "PYTHON",
+              item_brand: "Google",
+              item_category: "book",
+              price: 100,
+              quantity: 1
+          },
+          {
+               item_id: "TEV_665",
+              item_name: "JAVA",
+              item_brand: "Google",
+              item_category: "book",
+              price: 340,
+              quantity: 1
+          }]
     
     }
 });
